@@ -418,12 +418,12 @@ namespace ToolNews
 
 
                 //the path of the file
-                string filePath = PathProject + "\\FileThumbErrro\\ListSucces.xlsx";
+                string filePath = PathProject + "\\FileThumbError\\ListSuccess.xlsx";
 
                 //Write the file to the disk
                 FileInfo fi = new FileInfo(filePath);
                 excelPackage.SaveAs(fi);
-                Console.WriteLine("Link File " + PathProject + "\\FileThumbErrro\\ListSucces.xlsx");
+                Console.WriteLine("Link File " + PathProject + "\\FileThumbError\\ListSuccess.xlsx");
             }
 
         }
