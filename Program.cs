@@ -409,10 +409,10 @@ namespace ToolNews
                 worksheet.Cells[1, 1].Value = "NewsId";
                 worksheet.Cells[1, 2].Value =  "Link render _300x300";
                 //add some text to cell A1
-                for (int i = 1; i < DSIdNewsError.Count; i++)
+                for (int i = 0; i < DSIdNewsError.Count; i++)
                 {
-                    worksheet.Cells[i + 1, 1].Value = DSIdNewsError[i];
-                    worksheet.Cells[i + 1, 2].Value = DSlinkNewsError[i];
+                    worksheet.Cells[i + 2, 1].Value = DSIdNewsError[i];
+                    worksheet.Cells[i + 2, 2].Value = DSlinkNewsError[i];
 
                 }
 
